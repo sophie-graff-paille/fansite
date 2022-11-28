@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../fansite.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>ZE TOKI FAN CLUB</h1>
+        </section>
+        <input type="checkbox" id="navi-toggle" class="checkbox" />
+        <label for="navi-toggle" class="button">
+            <span class="icon">&nbsp;</span>
+        </label>
+        <div class="background">&nbsp;</div>
+        <nav class="nav">
+            <ul class="list">
+                <li class="item"><a href="./Index.html" class="link" title="Page d'accueil">Page d'accueil</a></li>
+                <li class="item"><a href="./Actus.html" class="link" title="L'actualité des Toki">Actus</a></li>
+                <li class="item"><a href="./Projets et Collab'.html" class="link"
+                        title="Les projets et collaborations des Toki">Projets et Collab'</a></li>
+                <li class="item"><a href="./On en parle.html" class="link" title="On parle des Toki">On en parle</a>
+                </li>
+                <li class="item"><a href="./Contact.html" class="link"
+                        title="Contacter le site ZeTokiFanClub">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="Tokis">
+            <img src="../images/toto.webp" alt="Toto" title="Photo de Toto">
+            <img src="../images/kiki.webp" alt="Kiki" title="Photo de Kiki">
+        </div>
+            <div class="wrapper">
+                <form class="form">
+                <div class="pageTitle title">Nous contacter</div>
+                <div class="secondaryTitle title">Remplis ce formulaire et nous reviendrons vers toi rapidement</div>
+                <input type="text" class="name formEntry" placeholder="Nom" />
+                <input type="text" class="email formEntry" placeholder="Email"/>
+                <input type="text" class="gossip formEntry" placeholder="D'où connais-tu ZeTokiFanClub ?"/>
+                <textarea class="message formEntry" placeholder="Message"></textarea>
+                <input type="checkbox" class="termsConditions" value="Term">
+                <label style="color: #003051" for="terms"> J'accepte les <span style="color: #e30a61">Conditions d'Utilisation</span> & <span style="color: #e30a61">Politique de Confidentialité</span>.</label><br/>
+                <button class="submit formEntry" onclick="thanks()">Envoyer</button>
+                </form>
+            </div>
+            <script src="app.js"></script>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="./Index.html" class="link" title="Page d'accueil">Page d'accueil</a></li>
+            <li><a href="./Actus.html" class="link" title="L'actualité des Toki">Actus</a></li>
+            <li><a href="./Projets et Collab'.html.html" class="link"
+                    title="Les projets et collaborations des Toki">Projets et Collab'</a></li>
+            <li><a href="./On en parle.html" class="link" title="On parle des Toki">On en parle</a></li>
+            <li><a href="./Contact.html" class="link" title="Contacter le site ZeTokiFanClub">Contact</a></li>
+        </ul>
+        <p>@ZeTokiFanClub. Tous droits réservés. | Mentions légales | Cookies | Référent handicap : <a
+                href="mailto:sophie.graff-paille@laplateforme.io">Sophie Graff-Paillé</a>
+        </p>
+        <div class="socials">
+            <a href="https://www.facebook.com/LaPlateformeIO">
+                <img src="../images/facebook.svg" alt="FB">
+            </a>
+            <a href="https://www.instagram.com/LaPlateformeIO/">
+                <img src="../images/instagram.svg" alt="Insta">
+            </a>
+        </div>
+    </footer>
+    
+</body>
+</html>
